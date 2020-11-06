@@ -14,7 +14,7 @@ $ pushd dcr-trezor
 ```
 
 ```bash
-$ git clone https://github.com/rickmort/trezor-utxo-lib/
+$ git clone https://github.com/rickmort/trezor-utxo-lib.git
 $ pushd trezor-utxo-lib
 $ git checkout adddecred
 $ yarn link
@@ -23,7 +23,7 @@ $ git popd
 ```
 
 ```bash
-$ git clone https://github.com/rickmort/connect/
+$ git clone https://github.com/rickmort/connect.git
 $ pushd connect
 $ git checkout adddecred
 $ yarn link @trezor/utxo-lib
@@ -35,7 +35,7 @@ now keep running this on: https://localhost:8088/
 open a new terminal.
 
 ```bash
-$ git clone https://github.com/rickmort/connect-explorer/
+$ git clone https://github.com/rickmort/connect-explorer.git
 $ pushd connect-explorer
 $ git checkout adddecred
 $ yarn
